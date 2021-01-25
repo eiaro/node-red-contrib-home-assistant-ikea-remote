@@ -1,0 +1,25 @@
+{
+  "name": "red-contrib-home-assistant-ikea-remote",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "semantic-release": "^17.3.7"
+  },
+  "devDependencies": {
+    "mocha": "^8.2.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eiaro/node-red-contrib-home-assistant-ikea-remote.git"
+  },
+  "author": "Ronny Eia",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eiaro/node-red-contrib-home-assistant-ikea-remote/issues"
+  },
+  "homepage": "https://github.com/eiaro/node-red-contrib-home-assistant-ikea-remote#readme"
+}
