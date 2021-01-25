@@ -3,14 +3,23 @@
   "version": "0.0.0",
   "description": "",
   "main": "index.js",
+  "node-red": {
+    "nodes": {
+      "e1810": "nodes/remote-e1810.js"
+    }
+  },
   "dependencies": {
+    "node-red-contrib-home-assistant-websocket": "^0.30.1",
+    "selectn": "^1.1.2",
     "semantic-release": "^17.3.7"
   },
   "devDependencies": {
-    "mocha": "^8.2.1"
+    "mocha": "^8.2.1",
+    "node-red": "^1.2.7",
+    "node-red-node-test-helper": "^0.2.5"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha test/**/*_spec.js"
   },
   "repository": {
     "type": "git",
